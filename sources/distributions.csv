@@ -1,0 +1,4 @@
+record_id,distribution_id,content_id,subject_key,channel,occurred_at,restriction_state,event_ref
+distributions-01,DS-31,ITEM-5,SYN-1,feed,2026-03-02T13:00:00Z,limited,EV-1
+distributions-02,DS-32,ITEM-5,SYN-2,feed,2026-03-02T15:00:00Z,unknown,EV-2
+distributions-03,DS-33,ITEM-8,SYN-1,search,2026-04-19T17:00:00Z,reviewed,EV-3
