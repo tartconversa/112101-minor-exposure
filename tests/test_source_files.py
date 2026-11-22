@@ -4,6 +4,8 @@ import csv
 import unittest
 from pathlib import Path
 
+import _bootstrap  # noqa: F401  # 保持各测试模块导入方式一致
+
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_SOURCES = ['age_signals.csv', 'distributions.csv', 'protection_rules.csv']
